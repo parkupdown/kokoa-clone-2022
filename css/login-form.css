@@ -1,0 +1,27 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+#login-form input {
+  padding: 15px 0;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: rgba(239, 243, 13, 0.9);
+  transition: border-color 0.7s ease-in-out;
+}
+
+#login-form input[type="submit"] {
+  background-color: rgba(239, 243, 13, 0.9);
+  cursor: pointer;
+  border-bottom: none;
+  border-radius: 5px;
+}

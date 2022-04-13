@@ -1,0 +1,144 @@
+.inchat_back{
+    background-color: rgb(143, 201, 240);
+height: 100vh;
+
+}
+.status-bar-color{
+    background-color: rgb(143, 201, 240);
+z-index: 1;
+padding-bottom: 29px;
+}
+.gogosing{
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(143, 201, 240);
+z-index: 2;
+margin-left: 0;
+}
+h6{
+    text-align: center;
+    margin-top: 120px;
+}
+h6 span{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: white;
+    opacity: 0.7;
+}
+.inchat_B1{
+    display: flex;
+    margin-top: 100px;
+    animation: fadeIn 0.3s ease-in;
+    animation-delay: 1s;
+will-change: transform;
+}
+.inchat_B1_1{    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   margin: 20px 20px;
+   animation: fadeIn 0.3s ease-in;
+   animation-delay: 1s;
+}
+.inchat_B1_2{
+    margin-top: 20px;
+    animation: fadeIn 0.3s ease-in;
+    animation-delay: 1s;
+}
+.inchat_B1_2 span:first-child{
+background-color: white;
+padding: 8px;
+border-radius: 8px;
+animation: fadeIn 0.3s ease-in;
+animation-delay: 1s;
+}
+.inchat_B1_2 span:last-child{
+    font-size: 8px;
+    opacity: 0.7;
+    margin: 13px 0 0 6px;
+    animation: fadeIn 0.3s ease-in;
+    animation-delay: 1s;
+}
+.inchat_B2{display: flex;
+    justify-content: flex-end;
+    margin: 30px 15px 0 0; 
+}
+.inchat_B2 span:first-child{
+    font-size: 8px;
+    opacity: 0.7;
+    margin:13px 6px 0 0px;
+    animation: fadeIn 0.3s ease-in;
+    animation-delay: 1s;
+}
+.inchat_B2 span:last-child{
+    background-color: yellow;
+padding: 8px;
+border-radius: 8px;
+animation: fadeIn 0.3s ease-in;
+animation-delay: 1s;
+}
+
+.inchat_form1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ 
+}
+.inchat_form1_text{
+   padding: 5px 1px 5px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    justify-content: center;
+    margin-right: 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.inchat_form1_text input{
+    width: 80%;
+    margin-left: -10px;
+    border: none;
+    background-color:white
+   
+}
+.inchat_form1 > div{
+    margin-left: 30px;
+}
+.inchat_form1_text button{
+    margin-left: 10px;
+background-color: yellow;
+    border-radius: 50%;
+    width: 30px;
+    height:30px ;
+    border: none;
+}
+.inchat_form1_text button{
+    margin-right: 0px;
+    transition: all 2s ease-in-out;
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+opacity: 1;
+    }
+}
+.inchat_form1:focus-within .inchat_form1_icon{
+
+    opacity: 0;
+}
+.inchat_form1_icon{
+    transition: all 1s ease-in-out;
+}

@@ -1,0 +1,151 @@
+
+.Find_icon{
+    display: flex;
+    justify-content: space-between;
+  margin: 30px 40px;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  padding-bottom: 30px;
+}
+.Find_icon_mini{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    margin: 0 5px;
+    width: 80px;
+
+}
+.Find_icon_mini span{
+    margin-top: 30px;
+display: block;
+text-align: center;
+}
+.Rec{
+    margin: 30px 40px;
+    color: rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+.Rec_F {
+    text-align: center;
+padding-bottom:  90px;
+    color: rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+margin: 80px 40px 0px 40px;
+}
+.OPEN{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.OPEN span:first-child{
+    font-size: 13px;
+    opacity: 0.5;
+}
+.OPEN span:last-child{
+    font-size: 13px;
+    opacity: 0.45;
+}
+.BTS1{
+  
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+}
+.BTS1_text {
+    display: flex;
+  flex-direction: column;
+  
+}
+.BTS2{
+   
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+}
+.BTS2_text{
+    display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.BTS1_text > span{ 
+    font-size: 16px;
+
+}
+.BTS2_text > span {
+    font-size: 16px;
+
+}
+.BTS1_text span:nth-child(2){
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+
+}
+.BTS2_text span:nth-child(2){
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+
+}
+.BTS1_text span:nth-child(3){
+    font-size: 13px;
+    color: rgba(0,0,0,0.35);
+
+}
+.BTS2_text span:nth-child(3){
+    font-size: 13px;
+    color: rgba(0,0,0,0.35);
+
+}
+
+.BTS1 img{
+
+
+    width: 80px;
+    height: 80px;
+    
+
+}
+
+.BTS2 img{ 
+ 
+    width: 80px;
+    height: 80px;
+
+} 
+.BTS{
+    margin-bottom: 40px;
+}
+.ACT
+    {
+    color: rgb(232, 33, 232);
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+@keyframes slashicon{
+    from{
+transform: translateX(-70px);
+opacity: 0;
+    }
+    to{
+transform: translateY(0);
+opacity: 1;    
+}
+}
+.Find_icon{
+    animation: slashicon 0.5s ease-in-out;
+
+
+}
+
+.BTS_img img:hover{
+    border: 5px dotted rgb(252, 154, 252);
+}
+.BTS_img img{
+    border: 0.5px solid black;
+    transition: all 1s linear;
+}
